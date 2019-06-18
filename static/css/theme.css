@@ -35,14 +35,6 @@ hr {
     padding-bottom: 1em;
 }
 
-hr:after,
-#page-foot:before {
-    visibility: visible;
-    content: '\2042';
-    display: block;
-    text-align: center;
-}
-
 article {
     margin-bottom: 4em;
 }
@@ -57,19 +49,6 @@ article header .meta {
 }
 
 article header .meta a { text-decoration: none; }
-
-article:after {
-    content: '\00A7';
-    display: block;
-    text-align: center;
-    font-weight: lighter;
-    font-size: 1.5em;
-}
-
-article:last-of-type:after {
-    content: '';
-}
-
 
 #page-head {
     text-align: center;
